@@ -98,6 +98,10 @@ Mélanie
 Hannebelle
 \end_layout
 
+\begin_layout Standard
+TEST Change 2
+\end_layout
+
 \begin_layout Section
 Introduction
 \end_layout
@@ -106,66 +110,44 @@ Introduction
 Hydrocephalus
 \end_layout
 
-\begin_layout Itemize
-definition
-\end_layout
-
-\begin_layout Itemize
-symptomes
-\end_layout
-
-\begin_layout Itemize
-traitement
+\begin_layout Standard
+Hydrocephalus (hydro- meaning "water" in Greek, and ceph meaning "head")
+ is a medical condition in which there is an abnormal accumulation of cerebrospi
+nal fluid (CSF) in the ventricles of the brain.
+ Consequently, the intracranial pressure inside the skull gets increased.
+ In children, this high pressure causes an enlargment of the head and might
+ also leads to mental disability.
+ 
 \end_layout
 
 \begin_layout Subsection
 Project state
 \end_layout
 
-\begin_layout Itemize
-presentation de la valve
+\begin_layout Standard
+Presentation fonctionnement valve, Etat du projet (resume travail DDF),
+ + mes mesures sur les dernieres valves de DDF
 \end_layout
 
-\begin_layout Itemize
-etat du projet :
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-existance d'un modele mecanique (COMSOL) et fluidique (modele analytique),
- tous deux verifies experimentalements avec une correspondance excellente
-\end_layout
-
-\begin_layout Itemize
-generation de valves deja fabriquees au CMi par DDF
-\end_layout
-
-\begin_layout Itemize
-processf low validé hormis bonding parylene : un decalage important entre
- les deux wafers; valves non fonctionnelles
-\end_layout
-
-\end_deeper
 \begin_layout Subsection
 Objectives
 \end_layout
 
 \begin_layout Standard
-Poursuivre le travail en developpant un procede de bonding adapté.
- Double approche : par le process de fabrication (limiter le shift) et par
- le design de la valve (robustesse par rapport au shift)
+Resoudre le probleme lié au shift pendant le bonding.
+ 
+\end_layout
+
+\begin_layout Standard
+Double approche : par la technique et par le design
 \end_layout
 
 \begin_layout Section
-New parylene bonding process for 
-\begin_inset Formula $\mu m$
-\end_inset
-
- precision alignment
+Improvement of robustness by process
 \end_layout
 
 \begin_layout Subsection
-Etat de l'art & solution retenue
+Bibliography
 \end_layout
 
 \begin_layout Standard
@@ -193,15 +175,41 @@ lie et process-comphatibilite).
 \end_layout
 
 \begin_layout Subsection
-Test
-\end_layout
-
-\begin_layout Section
-Genetic algorithm to generate more robust valves
+Solution mise en oeuvre
 \end_layout
 
 \begin_layout Subsection
-Principe
+First test - results
+\end_layout
+
+\begin_layout Section
+Improvement of robustness by design
+\end_layout
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+Existance d'un excellent outil de simulation, deja valide sur des mesures
+ realisees sur des chips fabriques
+\end_layout
+
+\begin_layout Standard
+Outil associe 
+\end_layout
+
+\begin_layout Standard
+- une simu elements finis avec comsol pour obtenir la deformee de la membrane
+ en fonction de la pression appliquee
+\end_layout
+
+\begin_layout Standard
+- 
+\end_layout
+
+\begin_layout Subsection
+Genetic algorithm
 \end_layout
 
 \begin_layout Subsection
@@ -209,12 +217,32 @@ Results
 \end_layout
 
 \begin_layout Section
-Fabrication d'une nouvelle generation de valves
+Towards a systemic model
 \end_layout
 
-\begin_layout Section
-Modele dynamique du systeme {valve + patient}.
- Vers une valve passive qui compense le changement de position.
+\begin_layout Subsection
+Existing fluidic model
+\end_layout
+
+\begin_layout Standard
+Modele de Marmarou, + biblio
+\end_layout
+
+\begin_layout Subsection
+Existing solutions
+\end_layout
+
+\begin_layout Standard
+cf.
+ these
+\end_layout
+
+\begin_layout Subsection
+New model including both the patient and the hydrocephalic shunt
+\end_layout
+
+\begin_layout Subsection
+Towards a new shunt design
 \end_layout
 
 \begin_layout Section
